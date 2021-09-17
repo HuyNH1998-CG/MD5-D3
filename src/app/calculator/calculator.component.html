@@ -1,0 +1,16 @@
+<label>
+  num1
+  <input type="number" [(ngModel)]="num1">
+</label>
+|||
+<label >
+  num2
+  <input type="number" [(ngModel)]="num2">
+</label>
+<br>
+<button (click)="plus(num1,num2)"> +Add+</button>
+<button (click)="minus(num1,num2)"> -Minus-</button>
+<button (click)="divide(num1,num2)"> /Divide/</button>
+<button (click)="multiply(num1,num2)"> *Multiply*</button>
+<br>
+<p>{{total}}</p>
