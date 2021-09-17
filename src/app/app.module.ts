@@ -5,12 +5,14 @@ import { AppComponent } from './app.component';
 import { FontsizeeditComponent } from './fontsizeedit/fontsizeedit.component';
 import {FormsModule} from "@angular/forms";
 import { PetComponent } from './pet/pet.component';
+import { ProductComponent } from './product/product.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     FontsizeeditComponent,
-    PetComponent
+    PetComponent,
+    ProductComponent
   ],
     imports: [
         BrowserModule,
